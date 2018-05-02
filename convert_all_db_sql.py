@@ -13,7 +13,7 @@ import time
 import codecs
 
 # 连接数据库
-db = MySQLdb.connect("10.30.81.137", "analyse_tmp", "xxxxxxxxxxxxx", "dev_dgc")
+db = MySQLdb.connect("dbip", "user", "pass", "dbname")
 
 cursor = db.cursor()
 
